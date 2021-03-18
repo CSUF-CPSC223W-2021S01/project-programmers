@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AE8883026032818005A4806 /* AddWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8882F26032818005A4806 /* AddWeight.swift */; };
 		EB7D786B25FA91A40080062C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D786A25FA91A40080062C /* AppDelegate.swift */; };
 		EB7D786D25FA91A40080062C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D786C25FA91A40080062C /* SceneDelegate.swift */; };
 		EB7D786F25FA91A40080062C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D786E25FA91A40080062C /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7AE8882F26032818005A4806 /* AddWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeight.swift; sourceTree = SOURCE_ROOT; };
 		EB7D786725FA91A40080062C /* DumbTheBump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DumbTheBump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7D786A25FA91A40080062C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7D786C25FA91A40080062C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		EB7D786925FA91A40080062C /* DumbTheBump */ = {
 			isa = PBXGroup;
 			children = (
+				7AE8882F26032818005A4806 /* AddWeight.swift */,
 				EB7D786A25FA91A40080062C /* AppDelegate.swift */,
 				EB7D786C25FA91A40080062C /* SceneDelegate.swift */,
 				EB7D786E25FA91A40080062C /* ViewController.swift */,
@@ -263,6 +266,7 @@
 			files = (
 				EB7D786F25FA91A40080062C /* ViewController.swift in Sources */,
 				EB7D787525FA91A40080062C /* DumbTheBump.xcdatamodeld in Sources */,
+				7AE8883026032818005A4806 /* AddWeight.swift in Sources */,
 				EB7D786B25FA91A40080062C /* AppDelegate.swift in Sources */,
 				EB7D786D25FA91A40080062C /* SceneDelegate.swift in Sources */,
 			);
