@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7AE8883B26032C41005A4806 /* AddWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8883A26032C41005A4806 /* AddWeight.swift */; };
+		9305058C63CAF9E5BAD0CF1B /* Pods_DumbTheBump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2ABD08978367147B3BE4A3 /* Pods_DumbTheBump.framework */; };
+		996F332EC427AE157CBD0621 /* Pods_DumbTheBumpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FC46046AE1296ED04548BB /* Pods_DumbTheBumpTests.framework */; };
+		B355A850467226976589FC4E /* Pods_DumbTheBump_DumbTheBumpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B388533FB2D5A1EB2B7A8B /* Pods_DumbTheBump_DumbTheBumpUITests.framework */; };
 		EB7D786B25FA91A40080062C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D786A25FA91A40080062C /* AppDelegate.swift */; };
 		EB7D786D25FA91A40080062C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D786C25FA91A40080062C /* SceneDelegate.swift */; };
 		EB7D786F25FA91A40080062C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D786E25FA91A40080062C /* ViewController.swift */; };
@@ -37,7 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C49DB1866508F0B2590FBB2 /* Pods-DumbTheBump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DumbTheBump.debug.xcconfig"; path = "Target Support Files/Pods-DumbTheBump/Pods-DumbTheBump.debug.xcconfig"; sourceTree = "<group>"; };
+		35B388533FB2D5A1EB2B7A8B /* Pods_DumbTheBump_DumbTheBumpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DumbTheBump_DumbTheBumpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E18DA17605D32CEB4067640 /* Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig"; path = "Target Support Files/Pods-DumbTheBump-DumbTheBumpUITests/Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F2ABD08978367147B3BE4A3 /* Pods_DumbTheBump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DumbTheBump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B398DE39EB8C4BE797BB22 /* Pods-DumbTheBump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DumbTheBump.release.xcconfig"; path = "Target Support Files/Pods-DumbTheBump/Pods-DumbTheBump.release.xcconfig"; sourceTree = "<group>"; };
+		73FC46046AE1296ED04548BB /* Pods_DumbTheBumpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DumbTheBumpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE8883A26032C41005A4806 /* AddWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeight.swift; sourceTree = "<group>"; };
+		7B4599C3839695731D118C7C /* Pods-DumbTheBump-DumbTheBumpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DumbTheBump-DumbTheBumpUITests.debug.xcconfig"; path = "Target Support Files/Pods-DumbTheBump-DumbTheBumpUITests/Pods-DumbTheBump-DumbTheBumpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0B2D462815F8F5A885C91C8 /* Pods-DumbTheBumpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DumbTheBumpTests.release.xcconfig"; path = "Target Support Files/Pods-DumbTheBumpTests/Pods-DumbTheBumpTests.release.xcconfig"; sourceTree = "<group>"; };
+		A27705E1843F5E73F5200403 /* Pods-DumbTheBumpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DumbTheBumpTests.debug.xcconfig"; path = "Target Support Files/Pods-DumbTheBumpTests/Pods-DumbTheBumpTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB7D786725FA91A40080062C /* DumbTheBump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DumbTheBump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7D786A25FA91A40080062C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7D786C25FA91A40080062C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9305058C63CAF9E5BAD0CF1B /* Pods_DumbTheBump.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996F332EC427AE157CBD0621 /* Pods_DumbTheBumpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B355A850467226976589FC4E /* Pods_DumbTheBump_DumbTheBumpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41C2F01B38232626C3CFA77D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C49DB1866508F0B2590FBB2 /* Pods-DumbTheBump.debug.xcconfig */,
+				56B398DE39EB8C4BE797BB22 /* Pods-DumbTheBump.release.xcconfig */,
+				7B4599C3839695731D118C7C /* Pods-DumbTheBump-DumbTheBumpUITests.debug.xcconfig */,
+				3E18DA17605D32CEB4067640 /* Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig */,
+				A27705E1843F5E73F5200403 /* Pods-DumbTheBumpTests.debug.xcconfig */,
+				A0B2D462815F8F5A885C91C8 /* Pods-DumbTheBumpTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B2008C8DAFF721DC1EFA4E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F2ABD08978367147B3BE4A3 /* Pods_DumbTheBump.framework */,
+				35B388533FB2D5A1EB2B7A8B /* Pods_DumbTheBump_DumbTheBumpUITests.framework */,
+				73FC46046AE1296ED04548BB /* Pods_DumbTheBumpTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB7D785E25FA91A40080062C = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +126,8 @@
 				EB7D788325FA91A60080062C /* DumbTheBumpTests */,
 				EB7D788E25FA91A60080062C /* DumbTheBumpUITests */,
 				EB7D786825FA91A40080062C /* Products */,
+				41C2F01B38232626C3CFA77D /* Pods */,
+				4B2008C8DAFF721DC1EFA4E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7D789425FA91A60080062C /* Build configuration list for PBXNativeTarget "DumbTheBump" */;
 			buildPhases = (
+				2D9BDA7ECE10FECC22A44B53 /* [CP] Check Pods Manifest.lock */,
 				EB7D786325FA91A40080062C /* Sources */,
 				EB7D786425FA91A40080062C /* Frameworks */,
 				EB7D786525FA91A40080062C /* Resources */,
+				4CCEBF06A51D53E4B2F0A7CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7D789725FA91A60080062C /* Build configuration list for PBXNativeTarget "DumbTheBumpTests" */;
 			buildPhases = (
+				C218311DB215338699F4A942 /* [CP] Check Pods Manifest.lock */,
 				EB7D787C25FA91A60080062C /* Sources */,
 				EB7D787D25FA91A60080062C /* Frameworks */,
 				EB7D787E25FA91A60080062C /* Resources */,
@@ -176,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7D789A25FA91A60080062C /* Build configuration list for PBXNativeTarget "DumbTheBumpUITests" */;
 			buildPhases = (
+				C4F8C9546389A9D5D8A57CCB /* [CP] Check Pods Manifest.lock */,
 				EB7D788725FA91A60080062C /* Sources */,
 				EB7D788825FA91A60080062C /* Frameworks */,
 				EB7D788925FA91A60080062C /* Resources */,
+				65C89F14B596234B2EC99851 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +304,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D9BDA7ECE10FECC22A44B53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DumbTheBump-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CCEBF06A51D53E4B2F0A7CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DumbTheBump/Pods-DumbTheBump-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DumbTheBump/Pods-DumbTheBump-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DumbTheBump/Pods-DumbTheBump-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65C89F14B596234B2EC99851 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DumbTheBump-DumbTheBumpUITests/Pods-DumbTheBump-DumbTheBumpUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DumbTheBump-DumbTheBumpUITests/Pods-DumbTheBump-DumbTheBumpUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DumbTheBump-DumbTheBumpUITests/Pods-DumbTheBump-DumbTheBumpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C218311DB215338699F4A942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DumbTheBumpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F8C9546389A9D5D8A57CCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DumbTheBump-DumbTheBumpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB7D786325FA91A40080062C /* Sources */ = {
@@ -441,6 +590,7 @@
 		};
 		EB7D789525FA91A60080062C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C49DB1866508F0B2590FBB2 /* Pods-DumbTheBump.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +609,7 @@
 		};
 		EB7D789625FA91A60080062C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B398DE39EB8C4BE797BB22 /* Pods-DumbTheBump.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +628,7 @@
 		};
 		EB7D789825FA91A60080062C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A27705E1843F5E73F5200403 /* Pods-DumbTheBumpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +650,7 @@
 		};
 		EB7D789925FA91A60080062C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B2D462815F8F5A885C91C8 /* Pods-DumbTheBumpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +672,7 @@
 		};
 		EB7D789B25FA91A60080062C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4599C3839695731D118C7C /* Pods-DumbTheBump-DumbTheBumpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +692,7 @@
 		};
 		EB7D789C25FA91A60080062C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E18DA17605D32CEB4067640 /* Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
