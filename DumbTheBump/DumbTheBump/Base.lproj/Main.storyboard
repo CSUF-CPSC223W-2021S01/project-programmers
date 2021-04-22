@@ -28,7 +28,7 @@
             <objects>
                 <viewController id="K7x-Io-axM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XaZ-LO-23T">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="URW-en-KJk">
@@ -75,7 +75,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TZ-BA-wiS">
-                                <rect key="frame" x="300" y="710" width="49" height="30"/>
+                                <rect key="frame" x="301" y="710" width="49" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
                             </button>
@@ -109,11 +109,12 @@
                         <viewLayoutGuide key="safeArea" id="5uY-0A-y0K"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="o1g-Pk-Cvx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwX-53-AWs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="1FI-Fo-kz8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1096" y="104"/>
+            <point key="canvasLocation" x="2030" y="104"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MbZ-of-PMD">
@@ -122,13 +123,23 @@
                     <view key="view" contentMode="scaleToFill" id="trg-iZ-0Bh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IH-HJ-jj2">
+                                <rect key="frame" x="310" y="800" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add Weight"/>
+                                <connections>
+                                    <segue destination="K7x-Io-axM" kind="show" id="DxY-cA-kEU"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="S4P-Yn-DOs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6HO-5W-tha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1962" y="104"/>
+            <point key="canvasLocation" x="1086" y="104"/>
         </scene>
     </scenes>
     <resources>

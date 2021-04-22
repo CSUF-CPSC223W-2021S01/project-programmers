@@ -6,19 +6,25 @@
 //
 
 import Foundation
+
 struct weightCollection {
-    var weights: [Weight]
-    func add (weight: Weight) {
-        
+    var weightArray: [Weight]
+    mutating func add (weight: Weight) {
+        weightArray.append(weight)
     }
-}class Weight {
+    init() {
+        weightArray = []
+    }
+}
+ 
+class Weight {
     var unit: String
     var month: String
     var day: String
     var year: String
     var weight: String
     
-    init(unit: String, month: String, day: String, year: String, weight: String) {
+    init?(unit: String, month: String, day: String, year: String, weight: String) {
          self.unit = unit
          self.month = month
          self.day = day
@@ -54,6 +60,6 @@ struct weightCollection {
         } else {
             self.weight = "-1"
         }    }
-         */
+        */
     }
 }
