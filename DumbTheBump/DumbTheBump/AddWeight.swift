@@ -41,13 +41,6 @@ class Weight {
         } else {
             self.weight = -1
         }
-        /*
-         self.unit = unit
-         self.month = month
-         self.day = day
-         self.year = year
-         self.weight = weight
-         */
     }
 }
 
@@ -66,7 +59,9 @@ class Tracker {
 
     // display the weight loss history
     func history() {
-        print(tracker)
+        for weight in tracker {
+            print("Date: \(weight.month)-\(weight.day)-\(weight.year) Weight: \(weight.weight) ")
+        }
     }
 }
 
