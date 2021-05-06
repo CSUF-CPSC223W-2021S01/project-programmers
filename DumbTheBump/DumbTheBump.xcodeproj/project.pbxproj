@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29946C242631C8D3004BBC0F /* shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29946C232631C8D3004BBC0F /* shared.swift */; };
 		55BDCD3AF5DB645F50BE3E9B /* Pods_DumbTheBump_DumbTheBumpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5141CDE8CB25C78CD12725 /* Pods_DumbTheBump_DumbTheBumpUITests.framework */; };
 		7AE8883B26032C41005A4806 /* AddWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8883A26032C41005A4806 /* AddWeight.swift */; };
 		E67C528801EEB4AC96FE9419 /* Pods_DumbTheBumpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B78954D7C0108A266A1E17 /* Pods_DumbTheBumpTests.framework */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29946C232631C8D3004BBC0F /* shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shared.swift; sourceTree = "<group>"; };
 		7AE8883A26032C41005A4806 /* AddWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeight.swift; sourceTree = "<group>"; };
 		7BF343FA3914E0B7E83DAB38 /* Pods-DumbTheBump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DumbTheBump.release.xcconfig"; path = "Target Support Files/Pods-DumbTheBump/Pods-DumbTheBump.release.xcconfig"; sourceTree = "<group>"; };
 		8EF3BDE3EE367C396E2C6F02 /* Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig"; path = "Target Support Files/Pods-DumbTheBump-DumbTheBumpUITests/Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				EB7D786E25FA91A40080062C /* ViewController.swift */,
 				EB7D787025FA91A40080062C /* Main.storyboard */,
 				EB7D787625FA91A60080062C /* Assets.xcassets */,
+				29946C232631C8D3004BBC0F /* shared.swift */,
 				EB7D787825FA91A60080062C /* LaunchScreen.storyboard */,
 				EB7D787B25FA91A60080062C /* Info.plist */,
 				EB7D787325FA91A40080062C /* DumbTheBump.xcdatamodeld */,
@@ -423,6 +426,7 @@
 				EB7D787525FA91A40080062C /* DumbTheBump.xcdatamodeld in Sources */,
 				7AE8883B26032C41005A4806 /* AddWeight.swift in Sources */,
 				EB7D786B25FA91A40080062C /* AppDelegate.swift in Sources */,
+				29946C242631C8D3004BBC0F /* shared.swift in Sources */,
 				EB7D786D25FA91A40080062C /* SceneDelegate.swift in Sources */,
 				EB3E80632643D43E006D9509 /* User.swift in Sources */,
 			);
