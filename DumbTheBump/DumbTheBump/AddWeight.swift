@@ -43,38 +43,3 @@ class Weight {
         }
     }
 }
-
-class Tracker {
-    var tracker: [Weight] // an array that stores the users progress
-    
-    init() {
-        tracker = []
-    }
-    
-    // add a weight
-    func addWeight(weight: Weight) {
-        tracker.append(weight)
-    }
-    
-
-    // display the weight loss history
-    func history() {
-        for weight in tracker {
-            print("Date: \(weight.month)-\(weight.day)-\(weight.year) Weight: \(weight.weight) ")
-        }
-    }
-}
-
-class User {
-    var name: String
-    var surname: String
-    var prePregnancyWeight: Int // the end goal
-    var currentWeight: Int
-    
-    init(name: String, surname: String, prePregnancyWeight: Int, currentWeight: Int) {
-        self.name = name
-        self.surname = surname
-        self.prePregnancyWeight = prePregnancyWeight
-        self.currentWeight = currentWeight
-    }
-}

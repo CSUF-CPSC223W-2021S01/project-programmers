@@ -2,7 +2,7 @@
 //  Tracker.swift
 //  DumbTheBump
 //
-//  Created by Mario on 4/8/21.
+//  Created by Mario on 5/6/21.
 //
 
 import Foundation
@@ -22,6 +22,8 @@ class Tracker {
 
     // display the weight loss history
     func history() {
-        print(tracker)
+        for weight in tracker {
+            print("Date: \(weight.month)-\(weight.day)-\(weight.year) Weight: \(weight.weight) ")
+        }
     }
 }

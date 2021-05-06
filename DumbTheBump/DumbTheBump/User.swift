@@ -2,7 +2,7 @@
 //  User.swift
 //  DumbTheBump
 //
-//  Created by Mario on 4/8/21.
+//  Created by Mario on 5/6/21.
 //
 
 import Foundation
@@ -19,4 +19,5 @@ class User {
         self.prePregnancyWeight = prePregnancyWeight
         self.currentWeight = currentWeight
     }
+
 }

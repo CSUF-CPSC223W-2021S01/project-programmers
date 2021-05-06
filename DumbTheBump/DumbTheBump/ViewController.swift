@@ -5,6 +5,7 @@
 //  Created by Mario on 3/11/21.
 //
 
+import Charts
 import UIKit
 
 class ViewController: UIViewController {
