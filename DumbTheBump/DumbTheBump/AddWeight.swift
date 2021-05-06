@@ -61,5 +61,7 @@ class Weight {
             self.weight = "-1"
         }    }
         */
+            self.weight = -1
+        }
     }
 }

@@ -18,10 +18,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="K7x-Io-axM" kind="show" id="OsG-fm-27f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14" y="104"/>
+            <point key="canvasLocation" x="267" y="104"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="huq-cZ-mCV">
@@ -110,6 +113,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="o1g-Pk-Cvx"/>
+                    <navigationItem key="navigationItem" id="bB3-jw-s0Z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwX-53-AWs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="1FI-Fo-kz8" userLabel="Exit" sceneMemberID="exit"/>
