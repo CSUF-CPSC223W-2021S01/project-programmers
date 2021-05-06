@@ -63,5 +63,4 @@ class Weight {
         */
             self.weight = -1
         }
-    }
-}
+    }//WHATS SUP
