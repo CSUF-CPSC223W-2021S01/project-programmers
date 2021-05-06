@@ -7,23 +7,23 @@
 
 import Foundation
 
-func save (array: weightCollection) {
+func save (array: Tracker) {
     let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
     let archiveURL = documentsDirectory.appendingPathComponent("weight").appendingPathExtension("plist")
 
     let propertyListEncoder = PropertyListEncoder()
     if let encodedWeight = try? propertyListEncoder.encode(array) {
-      try? encodedWeight?.write(to: archiveURL, options: .noFileProtection)
+        try? encodedWeight.write(to: archiveURL, options: .noFileProtection)
     }
 }
-func readWeight (URL: String) {
-    var loadedWeight : Weight
+func readWeight () { // return tracker array
+    var loadedTracker : Tracker // I want a tracker array here
     let propertyListDecoder = PropertyListDecoder()
     let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
     let archiveURL = documentsDirectory.appendingPathComponent("weight").appendingPathExtension("plist")
 
-    if let retrievedWeight = try? Data(contentsOf: archiveURL),
-        let decodedWeight = try? propertyListDecoder.decode(Weight.self, from: retrievedWeight) {
-        loadedWeight = decodedWeight
+    if let retrievedTracker = try? Data(contentsOf: archiveURL),
+        let decodedTracker = try? propertyListDecoder.decode(Tracker.self, from: retrievedTracker) {
+        loadedTracker = decodedTracker
     }
 }
