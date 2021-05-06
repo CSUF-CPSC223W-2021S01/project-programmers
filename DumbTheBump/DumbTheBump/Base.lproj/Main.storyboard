@@ -15,6 +15,16 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jQ-jH-g8s">
+                                <rect key="frame" x="283" y="806" width="104" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Weight Tracker"/>
+                                <connections>
+                                    <segue destination="0te-d1-I8E" kind="show" id="nUD-ds-FQf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -24,12 +34,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="267" y="104"/>
+            <point key="canvasLocation" x="249" y="113"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="huq-cZ-mCV">
             <objects>
-                <viewController id="K7x-Io-axM" sceneMemberID="viewController">
+                <viewController id="K7x-Io-axM" customClass="ThirdViewController" customModule="DumbTheBump" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XaZ-LO-23T">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,19 +123,25 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="o1g-Pk-Cvx"/>
-                    <navigationItem key="navigationItem" id="bB3-jw-s0Z"/>
+                    <connections>
+                        <outlet property="dayTextField" destination="hM1-yb-qmL" id="goe-l9-7iQ"/>
+                        <outlet property="monthTextField" destination="URW-en-KJk" id="rOA-Qz-gSf"/>
+                        <outlet property="unitTextField" destination="X1c-z6-mVq" id="tS9-MD-mzR"/>
+                        <outlet property="weightTextField" destination="f3Q-yo-mxG" id="D55-JZ-Icy"/>
+                        <outlet property="yearTextField" destination="PVY-JF-IiF" id="mh7-ln-8g3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwX-53-AWs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="1FI-Fo-kz8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2030" y="104"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="MbZ-of-PMD">
             <objects>
-                <viewController id="0te-d1-I8E" sceneMemberID="viewController">
+                <viewController id="0te-d1-I8E" customClass="SecondViewController" customModule="DumbTheBump" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="trg-iZ-0Bh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IH-HJ-jj2">
@@ -140,12 +156,16 @@
                         <viewLayoutGuide key="safeArea" id="S4P-Yn-DOs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="2Rb-sv-8Ez"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6HO-5W-tha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1086" y="104"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="OsG-fm-27f"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
