@@ -7,17 +7,7 @@
 
 import Foundation
 
-struct weightCollection {
-    var weightArray: [Weight]
-    mutating func add (weight: Weight) {
-        weightArray.append(weight)
-    }
-    init() {
-        weightArray = []
-    }
-}
- 
-class Weight {
+class Weight: Codable {
     var unit: String
     var month: String
     var day: String
@@ -61,7 +51,6 @@ class Weight {
             self.weight = "-1"
         }    }
         */
-            self.weight = -1
-        }
+            //self.weight = "-1"
     }
 }

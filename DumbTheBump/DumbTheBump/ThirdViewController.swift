@@ -15,18 +15,33 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var yearTextField: UITextField!
     @IBOutlet weak var weightTextField: UITextField!
     
-    var vc : ViewController?
-    
+    var vc2 : SecondViewController?
+    //var name: String
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let weightInfo = Weight(unit: unitTextField.text, month: monthTextField.text, day: dayTextField.text, year: yearTextField.text, weight: weightTextField.text)
-        let weightArray = weightCollection()
-        weightArray.add(weightInfo)
-        save(array: weightArray)
-        weightInfo.weight = textfield.text
-        vc.updateWeight(WeightInfo)    }
+        if let weightInfo = Weight(unit: unitTextField.text!, month: monthTextField.text!, day: dayTextField.text!, year: yearTextField.text!, weight: weightTextField.text!) {
+            weightInfo.unit = unitTextField.text!
+            weightInfo.month = monthTextField.text!
+            weightInfo.day = dayTextField.text!
+            weightInfo.year = yearTextField.text!
+            weightInfo.weight = weightTextField.text!
+            vc2?.updateWeight(weightInfo: weightInfo)
+            let tracker = Tracker()
+            tracker.addWeight(weight: weightInfo)
+            save(array: tracker)
+        }
+        /*
+        weightInfo.unit = unitTextField.text
+        weightInfo.month = monthTextField.text
+        weightInfo.day = dayTextField.text
+        weightInfo.year = yearTextField.text
+        weightInfo.weight = weightTextField.text
+        vc2.updateWeight(weightInfo)
+         */
+        
+    }
     
 
     /*

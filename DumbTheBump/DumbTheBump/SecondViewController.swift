@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  DumbTheBump
 //
-//  Created by Ventayen, Harrold on 5/6/21.
+//  Created by Ventayen, Harrold and Linares, Mario on 5/6/21.
 //
 
 import UIKit
@@ -11,7 +11,7 @@ class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -27,13 +27,15 @@ class SecondViewController: UIViewController {
     */
     // VC1
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var vc2 = segue.destination as? viewController2 {
-            vc2.vc = self;
+        if let vc3 : ThirdViewController = segue.destination as? ThirdViewController {
+            vc3.vc2 = self;
+            //vc3.name = "harrold";
             //updateWeight(weightInfo)
         }
     }
     // code for vc1
     func updateWeight(weightInfo: Weight) {
+        // import into graph class?
         print(weightInfo.weight)
        // weightInfo.unit = unitTextField.text
     }

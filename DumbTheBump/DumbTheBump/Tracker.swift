@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Tracker {
+class Tracker : Decodable, Encodable{
     var tracker: [Weight] // an array that stores the users progress
     
     init() {
