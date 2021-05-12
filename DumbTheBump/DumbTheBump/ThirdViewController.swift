@@ -21,6 +21,7 @@ class ThirdViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        /*
         if let weightInfo = Weight(unit: unitTextField.text!, month: monthTextField.text!, day: dayTextField.text!, year: yearTextField.text!, weight: weightTextField.text!) {
             weightInfo.unit = unitTextField.text!
             weightInfo.month = monthTextField.text!
@@ -32,6 +33,7 @@ class ThirdViewController: UIViewController {
             tracker.addWeight(weight: weightInfo)
             save(array: tracker)
         }
+ */
         /*
         weightInfo.unit = unitTextField.text
         weightInfo.month = monthTextField.text
@@ -43,7 +45,28 @@ class ThirdViewController: UIViewController {
         
     }
     
-
+    @IBAction func onButtonTapDone(_ sender: Any) {
+        
+    }
+    @IBAction func onButtonTap(_ sender: Any) {
+        if let weightInfo = Weight(unit: unitTextField.text!, month: monthTextField.text!, day: dayTextField.text!, year: yearTextField.text!, weight: weightTextField.text!) {
+            weightInfo.unit = unitTextField.text!
+            weightInfo.month = monthTextField.text!
+            weightInfo.day = dayTextField.text!
+            weightInfo.year = yearTextField.text!
+            weightInfo.weight = weightTextField.text!
+            vc2?.updateWeight(weightInfo: weightInfo)
+            let tracker = Tracker()
+            tracker.addWeight(weight: weightInfo)
+            save(array: tracker)
+            unitTextField.text = ""
+            monthTextField.text = ""
+            dayTextField.text = ""
+            yearTextField.text = ""
+            weightTextField.text = ""
+        }
+        
+    }
     /*
     // MARK: - Navigation
 
