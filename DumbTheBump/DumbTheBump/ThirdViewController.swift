@@ -20,6 +20,11 @@ class ThirdViewController: UIViewController {
     //var name: String
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let File = readWeight()
+        for weights in File?.tracker ?? []{
+            tracker.addWeight(weight: weights)
+        }
 
         // Do any additional setup after loading the view.
         /*
