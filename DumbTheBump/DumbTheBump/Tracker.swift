@@ -26,4 +26,11 @@ class Tracker : Decodable, Encodable{
             print("Date: \(weight.month)-\(weight.day)-\(weight.year) Weight: \(weight.weight) ")
         }
     }
+    func returnHistory() -> String {
+        var History = " "
+        for weight in tracker{
+            History = "Date: \(weight.month)-\(weight.day)-\(weight.year) Weight: \(weight.weight)\n" + History
+        }
+        return History
+    }
 }

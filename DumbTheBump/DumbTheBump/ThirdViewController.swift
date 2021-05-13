@@ -14,6 +14,7 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var dayTextField: UITextField!
     @IBOutlet weak var yearTextField: UITextField!
     @IBOutlet weak var weightTextField: UITextField!
+    let tracker = Tracker()
     
     var vc2 : SecondViewController?
     //var name: String
@@ -46,6 +47,7 @@ class ThirdViewController: UIViewController {
     }
     
     @IBAction func onButtonTapDone(_ sender: Any) {
+        save(array: tracker)
         
     }
     @IBAction func onButtonTap(_ sender: Any) {
@@ -56,9 +58,7 @@ class ThirdViewController: UIViewController {
             weightInfo.year = yearTextField.text!
             weightInfo.weight = weightTextField.text!
             vc2?.updateWeight(weightInfo: weightInfo)
-            let tracker = Tracker()
             tracker.addWeight(weight: weightInfo)
-            save(array: tracker)
             unitTextField.text = ""
             monthTextField.text = ""
             dayTextField.text = ""
