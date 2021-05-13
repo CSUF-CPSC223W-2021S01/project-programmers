@@ -14,6 +14,8 @@ class Tracker : Decodable, Encodable{
         tracker = []
     }
     
+    
+    
     // add a weight
     func addWeight(weight: Weight) {
         tracker.append(weight)
@@ -32,5 +34,21 @@ class Tracker : Decodable, Encodable{
             History = "Date: \(weight.month)-\(weight.day)-\(weight.year) Weight: \(weight.weight)\n" + History
         }
         return History
+    }
+    
+    func returnDay() -> Double {
+        var day = ""
+        for weight in tracker {
+            day = weight.day
+        }
+        return Double(day)!
+    }
+    
+    func returnWeight() -> Double {
+        var weight = ""
+        for x in tracker {
+            weight = x.weight
+        }
+        return Double(weight)!
     }
 }

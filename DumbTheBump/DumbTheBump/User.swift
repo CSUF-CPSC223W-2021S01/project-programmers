@@ -10,7 +10,7 @@ import Foundation
 class User {
     var name: String
     var surname: String
-    var prePregnancyWeight: Int // the end goal
+    var prePregnancyWeight: Int
     var currentWeight: Int
     
     init(name: String, surname: String, prePregnancyWeight: Int, currentWeight: Int) {

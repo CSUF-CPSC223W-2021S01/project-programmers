@@ -16,8 +16,8 @@ func save (array: Tracker) {
         try? encodedWeight.write(to: archiveURL, options: .noFileProtection)
     }
 }
-func readWeight () ->Tracker? { // return tracker array
-    var loadedTracker : Tracker // I want a tracker array here
+func readWeight () ->Tracker? { 
+    var loadedTracker : Tracker
     let propertyListDecoder = PropertyListDecoder()
     let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
     let archiveURL = documentsDirectory.appendingPathComponent("weight").appendingPathExtension("plist")
