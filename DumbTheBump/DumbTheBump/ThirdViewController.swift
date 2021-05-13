@@ -25,30 +25,6 @@ class ThirdViewController: UIViewController {
         for weights in File?.tracker ?? []{
             tracker.addWeight(weight: weights)
         }
-
-        // Do any additional setup after loading the view.
-        /*
-        if let weightInfo = Weight(unit: unitTextField.text!, month: monthTextField.text!, day: dayTextField.text!, year: yearTextField.text!, weight: weightTextField.text!) {
-            weightInfo.unit = unitTextField.text!
-            weightInfo.month = monthTextField.text!
-            weightInfo.day = dayTextField.text!
-            weightInfo.year = yearTextField.text!
-            weightInfo.weight = weightTextField.text!
-            vc2?.updateWeight(weightInfo: weightInfo)
-            let tracker = Tracker()
-            tracker.addWeight(weight: weightInfo)
-            save(array: tracker)
-        }
- */
-        /*
-        weightInfo.unit = unitTextField.text
-        weightInfo.month = monthTextField.text
-        weightInfo.day = dayTextField.text
-        weightInfo.year = yearTextField.text
-        weightInfo.weight = weightTextField.text
-        vc2.updateWeight(weightInfo)
-         */
-        
     }
     
     @IBAction func onButtonTapDone(_ sender: Any) {
@@ -72,14 +48,4 @@ class ThirdViewController: UIViewController {
         }
         
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

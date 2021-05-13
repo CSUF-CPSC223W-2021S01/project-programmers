@@ -21,30 +21,6 @@ class ViewController: UIViewController {
     */
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        /*
-        let weightInfo = Weight(unit: unitTextField.text, month: monthTextField.text, day: dayTextField.text, year: yearTextField.text, weight: weightTextField.text)
-        let weightArray = weightCollection()
-        weightArray.add(weightInfo)
-        save(array: weightArray)
-        weightInfo.weight = textfield.text
-        vc.updateWeight(WeightInfo)
-        */
     }
-    
-    // VC1
-    /*
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var vc2 = segue.destination as? viewController2 {
-            vc2.vc = self;
-            //updateWeight(weightInfo)
-        }
-    }
-    // code for vc1
-    func updateWeight(weightInfo: Weight) {
-        print(weightInfo.weight)
-       // weightInfo.unit = unitTextField.text
-    }
- */
 }
 

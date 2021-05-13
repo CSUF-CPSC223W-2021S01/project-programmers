@@ -22,35 +22,11 @@ class Weight: Codable {
          self.weight = weight
     }
     
-    func constraints() {
-        /*
-        if unit == "Imperial" || unit == "Metric" {
-            // self.unit = unitTextField?
-            self.unit = unit
-        } else {
-            self.unit = "Error"
-        }
-        if month >= "0" && month <= "12" {
-            // self.month = unitTextField.text?
-            self.month = month
-        } else {
-            self.month = "-1"
-        }
-        // self.month = monthTextField.text?
-        self.day = day
-        if year >= "0" {
-            // self.year = yearTextField.text?
-            self.year = year
-        } else {
-            self.year = "-1"
-        }
-        if weight >= "0" {
-            // self.weight = weightTextField.text?
-            self.weight = weight
-        } else {
-            self.weight = "-1"
-        }    }
-        */
-            //self.weight = "-1"
+    func returnDay() -> Double {
+      return Double(day)!
+    }
+    
+    func returnWeight() -> Double {
+        return Double(weight)!
     }
 }

@@ -25,10 +25,9 @@ class LineChartViewController: UIViewController, ChartViewDelegate {
         
         var entries = [ChartDataEntry]()
         let weights = readWeight()
-       
         
         for x in weights?.tracker ?? [] {
-            entries.append(ChartDataEntry(x: Double((weights?.returnDay())!), y: Double((weights?.returnWeight())!)))
+            entries.append(ChartDataEntry(x: Double(x.returnDay()), y: Double(x.returnWeight())))
         }
         
         let set = LineChartDataSet(entries:entries)
