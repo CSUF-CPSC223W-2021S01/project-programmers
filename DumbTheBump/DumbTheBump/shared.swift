@@ -16,7 +16,7 @@ func save (array: Tracker) {
         try? encodedWeight.write(to: archiveURL, options: .noFileProtection)
     }
 }
-func readWeight () { // return tracker array
+func readWeight () ->Tracker? { // return tracker array
     var loadedTracker : Tracker // I want a tracker array here
     let propertyListDecoder = PropertyListDecoder()
     let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
@@ -25,5 +25,7 @@ func readWeight () { // return tracker array
     if let retrievedTracker = try? Data(contentsOf: archiveURL),
         let decodedTracker = try? propertyListDecoder.decode(Tracker.self, from: retrievedTracker) {
         loadedTracker = decodedTracker
+        return loadedTracker
     }
+    return nil
 }

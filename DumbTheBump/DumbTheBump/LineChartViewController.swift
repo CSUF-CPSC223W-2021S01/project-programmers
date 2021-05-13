@@ -2,7 +2,7 @@
 //  LineChartViewController.swift
 //  DumbTheBump
 //
-//  Created by Mario on 5/9/21.
+//  Created by Mario on 5/13/21.
 //
 
 import UIKit
@@ -24,18 +24,17 @@ class LineChartViewController: UIViewController, ChartViewDelegate {
         view.addSubview(lineChart)
         
         var entries = [ChartDataEntry]()
+        let weights = readWeight()
+       
         
-        for x in 0..<10 {
-            entries.append(ChartDataEntry(x: Double(x), y: Double(x)))
+        for x in weights?.tracker ?? [] {
+            entries.append(ChartDataEntry(x: Double((weights?.returnDay())!), y: Double((weights?.returnWeight())!)))
         }
         
-        let set = LineChartDataSet(entries: entries)
+        let set = LineChartDataSet(entries:entries)
         set.colors = ChartColorTemplates.material()
         let data = LineChartData(dataSet: set)
         lineChart.data = data
     }
-    
-
-
 
 }

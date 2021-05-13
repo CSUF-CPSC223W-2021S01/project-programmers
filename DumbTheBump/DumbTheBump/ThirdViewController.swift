@@ -14,13 +14,20 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var dayTextField: UITextField!
     @IBOutlet weak var yearTextField: UITextField!
     @IBOutlet weak var weightTextField: UITextField!
+    let tracker = Tracker()
     
     var vc2 : SecondViewController?
     //var name: String
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let File = readWeight()
+        for weights in File?.tracker ?? []{
+            tracker.addWeight(weight: weights)
+        }
 
         // Do any additional setup after loading the view.
+        /*
         if let weightInfo = Weight(unit: unitTextField.text!, month: monthTextField.text!, day: dayTextField.text!, year: yearTextField.text!, weight: weightTextField.text!) {
             weightInfo.unit = unitTextField.text!
             weightInfo.month = monthTextField.text!
@@ -32,6 +39,7 @@ class ThirdViewController: UIViewController {
             tracker.addWeight(weight: weightInfo)
             save(array: tracker)
         }
+ */
         /*
         weightInfo.unit = unitTextField.text
         weightInfo.month = monthTextField.text
@@ -43,7 +51,27 @@ class ThirdViewController: UIViewController {
         
     }
     
-
+    @IBAction func onButtonTapDone(_ sender: Any) {
+        save(array: tracker)
+        
+    }
+    @IBAction func onButtonTap(_ sender: Any) {
+        if let weightInfo = Weight(unit: unitTextField.text!, month: monthTextField.text!, day: dayTextField.text!, year: yearTextField.text!, weight: weightTextField.text!) {
+            weightInfo.unit = unitTextField.text!
+            weightInfo.month = monthTextField.text!
+            weightInfo.day = dayTextField.text!
+            weightInfo.year = yearTextField.text!
+            weightInfo.weight = weightTextField.text!
+            vc2?.updateWeight(weightInfo: weightInfo)
+            tracker.addWeight(weight: weightInfo)
+            unitTextField.text = ""
+            monthTextField.text = ""
+            dayTextField.text = ""
+            yearTextField.text = ""
+            weightTextField.text = ""
+        }
+        
+    }
     /*
     // MARK: - Navigation
 

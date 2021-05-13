@@ -24,6 +24,8 @@
 		EB7D787A25FA91A60080062C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7D787825FA91A60080062C /* LaunchScreen.storyboard */; };
 		EB7D788525FA91A60080062C /* DumbTheBumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D788425FA91A60080062C /* DumbTheBumpTests.swift */; };
 		EB7D789025FA91A60080062C /* DumbTheBumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D788F25FA91A60080062C /* DumbTheBumpUITests.swift */; };
+		EBE20680264D2DF5008F27E8 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2067F264D2DF5008F27E8 /* FourthViewController.swift */; };
+		EBE20685264D307C008F27E8 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE20684264D307C008F27E8 /* LineChartViewController.swift */; };
 		EEB955EE08A1360F8572EC50 /* Pods_DumbTheBump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F50FD2D06A85AE659749BBB /* Pods_DumbTheBump.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +77,8 @@
 		EB7D788B25FA91A60080062C /* DumbTheBumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DumbTheBumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7D788F25FA91A60080062C /* DumbTheBumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbTheBumpUITests.swift; sourceTree = "<group>"; };
 		EB7D789125FA91A60080062C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE2067F264D2DF5008F27E8 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		EBE20684264D307C008F27E8 /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 				EB3E80622643D43E006D9509 /* User.swift */,
 				29673D88264437B2003472F8 /* SecondViewController.swift */,
 				29673D902644399D003472F8 /* ThirdViewController.swift */,
+				EBE2067F264D2DF5008F27E8 /* FourthViewController.swift */,
+				EBE20684264D307C008F27E8 /* LineChartViewController.swift */,
 			);
 			path = DumbTheBump;
 			sourceTree = "<group>";
@@ -429,7 +435,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB3E805E2643D3D4006D9509 /* Tracker.swift in Sources */,
+				EBE20685264D307C008F27E8 /* LineChartViewController.swift in Sources */,
 				EB7D786F25FA91A40080062C /* ViewController.swift in Sources */,
+				EBE20680264D2DF5008F27E8 /* FourthViewController.swift in Sources */,
 				29673D912644399D003472F8 /* ThirdViewController.swift in Sources */,
 				EB7D787525FA91A40080062C /* DumbTheBump.xcdatamodeld in Sources */,
 				29673D89264437B2003472F8 /* SecondViewController.swift in Sources */,
