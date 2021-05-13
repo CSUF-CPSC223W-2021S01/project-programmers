@@ -48,9 +48,54 @@ class Weight: Codable {
             // self.weight = weightTextField.text?
             self.weight = weight
         } else {
+<<<<<<< HEAD
             self.weight = "-1"
         }    }
         */
             //self.weight = "-1"
+=======
+            self.weight = -1
+        }
+        /*
+         self.unit = unit
+         self.month = month
+         self.day = day
+         self.year = year
+         self.weight = weight
+         */
+    }
+}
+
+class Tracker {
+    var tracker: [Weight] // an array that stores the users progress
+    
+    init() {
+        tracker = []
+    }
+    
+    // add a weight
+    func addWeight(weight: Weight) {
+        tracker.append(weight)
+    }
+    
+
+    // display the weight loss history
+    func history() {
+        print(tracker)
+    }
+}
+
+class User {
+    var name: String
+    var surname: String
+    var prePregnancyWeight: Int // the end goal
+    var currentWeight: Int
+    
+    init(name: String, surname: String, prePregnancyWeight: Int, currentWeight: Int) {
+        self.name = name
+        self.surname = surname
+        self.prePregnancyWeight = prePregnancyWeight
+        self.currentWeight = currentWeight
+>>>>>>> parent of 774eea9... Added a library to create graphs
     }
 }

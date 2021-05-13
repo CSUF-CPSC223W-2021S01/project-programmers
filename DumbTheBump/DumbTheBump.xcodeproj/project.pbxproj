@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		29673D89264437B2003472F8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29673D88264437B2003472F8 /* SecondViewController.swift */; };
 		29673D912644399D003472F8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29673D902644399D003472F8 /* ThirdViewController.swift */; };
 		29946C242631C8D3004BBC0F /* shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29946C232631C8D3004BBC0F /* shared.swift */; };
@@ -14,6 +15,9 @@
 		7AE8883B26032C41005A4806 /* AddWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8883A26032C41005A4806 /* AddWeight.swift */; };
 		EB3E805E2643D3D4006D9509 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E805D2643D3D4006D9509 /* Tracker.swift */; };
 		EB3E80632643D43E006D9509 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E80622643D43E006D9509 /* User.swift */; };
+=======
+		7AE8883B26032C41005A4806 /* AddWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8883A26032C41005A4806 /* AddWeight.swift */; };
+>>>>>>> parent of 774eea9... Added a library to create graphs
 		EB7D786B25FA91A40080062C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D786A25FA91A40080062C /* AppDelegate.swift */; };
 		EB7D786D25FA91A40080062C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D786C25FA91A40080062C /* SceneDelegate.swift */; };
 		EB7D786F25FA91A40080062C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D786E25FA91A40080062C /* ViewController.swift */; };
@@ -48,6 +52,7 @@
 		29946C232631C8D3004BBC0F /* shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shared.swift; sourceTree = "<group>"; };
 		7A26EFAD264CA28000E9E62D /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		7AE8883A26032C41005A4806 /* AddWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeight.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		7BF343FA3914E0B7E83DAB38 /* Pods-DumbTheBump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DumbTheBump.release.xcconfig"; path = "Target Support Files/Pods-DumbTheBump/Pods-DumbTheBump.release.xcconfig"; sourceTree = "<group>"; };
 		8EF3BDE3EE367C396E2C6F02 /* Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig"; path = "Target Support Files/Pods-DumbTheBump-DumbTheBumpUITests/Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F50FD2D06A85AE659749BBB /* Pods_DumbTheBump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DumbTheBump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +64,8 @@
 		E6B78954D7C0108A266A1E17 /* Pods_DumbTheBumpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DumbTheBumpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3E805D2643D3D4006D9509 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
 		EB3E80622643D43E006D9509 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of 774eea9... Added a library to create graphs
 		EB7D786725FA91A40080062C /* DumbTheBump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DumbTheBump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7D786A25FA91A40080062C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7D786C25FA91A40080062C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +108,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		058F2924ACBB68E4A969D28C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +132,8 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of 774eea9... Added a library to create graphs
 		EB7D785E25FA91A40080062C = {
 			isa = PBXGroup;
 			children = (
@@ -131,8 +141,6 @@
 				EB7D788325FA91A60080062C /* DumbTheBumpTests */,
 				EB7D788E25FA91A60080062C /* DumbTheBumpUITests */,
 				EB7D786825FA91A40080062C /* Products */,
-				058F2924ACBB68E4A969D28C /* Pods */,
-				30B406D397771343DF17F028 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,11 +201,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7D789425FA91A60080062C /* Build configuration list for PBXNativeTarget "DumbTheBump" */;
 			buildPhases = (
-				52D112F68FBEF0D5F5D6D6DD /* [CP] Check Pods Manifest.lock */,
 				EB7D786325FA91A40080062C /* Sources */,
 				EB7D786425FA91A40080062C /* Frameworks */,
 				EB7D786525FA91A40080062C /* Resources */,
-				192060B442A91550D84A24C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,7 +218,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7D789725FA91A60080062C /* Build configuration list for PBXNativeTarget "DumbTheBumpTests" */;
 			buildPhases = (
-				C473B2E323D70DFDCE6DB27A /* [CP] Check Pods Manifest.lock */,
 				EB7D787C25FA91A60080062C /* Sources */,
 				EB7D787D25FA91A60080062C /* Frameworks */,
 				EB7D787E25FA91A60080062C /* Resources */,
@@ -231,11 +236,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7D789A25FA91A60080062C /* Build configuration list for PBXNativeTarget "DumbTheBumpUITests" */;
 			buildPhases = (
-				F135D7C32B883D56652B6961 /* [CP] Check Pods Manifest.lock */,
 				EB7D788725FA91A60080062C /* Sources */,
 				EB7D788825FA91A60080062C /* Frameworks */,
 				EB7D788925FA91A60080062C /* Resources */,
-				61FB0C910D6D5EF60DB632A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,6 +320,7 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+<<<<<<< HEAD
 /* Begin PBXShellScriptBuildPhase section */
 		192060B442A91550D84A24C1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -425,6 +429,8 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 
+=======
+>>>>>>> parent of 774eea9... Added a library to create graphs
 /* Begin PBXSourcesBuildPhase section */
 		EB7D786325FA91A40080062C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -613,7 +619,6 @@
 		};
 		EB7D789525FA91A60080062C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2C3E414596543EAB2BDB670 /* Pods-DumbTheBump.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -638,7 +643,6 @@
 		};
 		EB7D789625FA91A60080062C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BF343FA3914E0B7E83DAB38 /* Pods-DumbTheBump.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -662,7 +666,6 @@
 		};
 		EB7D789825FA91A60080062C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D75C64DD609F13F21FBD399C /* Pods-DumbTheBumpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -686,7 +689,6 @@
 		};
 		EB7D789925FA91A60080062C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3B689484F3BBCD86C03D825 /* Pods-DumbTheBumpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -710,7 +712,6 @@
 		};
 		EB7D789B25FA91A60080062C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B420F098758D6FE384D51C1A /* Pods-DumbTheBump-DumbTheBumpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -732,7 +733,6 @@
 		};
 		EB7D789C25FA91A60080062C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EF3BDE3EE367C396E2C6F02 /* Pods-DumbTheBump-DumbTheBumpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
