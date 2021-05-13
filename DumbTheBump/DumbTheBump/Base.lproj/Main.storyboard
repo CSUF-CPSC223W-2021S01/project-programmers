@@ -199,14 +199,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cki-tX-vGV">
-                                <rect key="frame" x="353" y="778" width="37" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Done"/>
-                                <connections>
-                                    <segue destination="0te-d1-I8E" kind="showDetail" id="Ul2-5s-kE3"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xXi-Fx-QGs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -221,7 +213,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ul2-5s-kE3"/>
+        <segue reference="nUD-ds-FQf"/>
         <segue reference="DxY-cA-kEU"/>
     </inferredMetricsTieBreakers>
     <resources>
